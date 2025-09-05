@@ -20,22 +20,24 @@ O sistema permite que clientes solicitem guincho informando seus dados e os do v
 - Postman
 
 🗂️ Estrutura do Projeto
-guincho/
- ├── src/
-     ├── main/
-         ├── java/anapicoli/guincho/
-             ├── controller/
-             ├── model/
-             ├── repository/
-             ├── service/
-             └── GuinchoApplication
-         └── resources/
-             ├── application.properties
-             ├── static/
-             └── templates/
-     └── test/java/anapicoli/guincho/
-         └── GuinchoApplicationTests
- └── pom.xml
+- guincho
+  - src
+    - main
+      - java
+        - anapicoli.guincho
+          - controller
+            - solicitacaoguinchocontroller
+          - model
+            - solicitacaoguincho
+          - repository
+            - solicitacaoguinchorepository
+          - service
+            - solicitacaoguinchoservice
+          - GuinchoApplication
+      - resources
+        - static
+        - templates
+        - application.properties
 
 🚀 Executando o Projeto
 
@@ -55,4 +57,4 @@ O servidor estará disponível em:
 
 📌 Autor
 
-Projeto desenvolvido por Ana Picoli
+Ana Picoli
